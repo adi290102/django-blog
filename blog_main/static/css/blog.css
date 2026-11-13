@@ -67,3 +67,26 @@ h1, h2, h3, h4, h5, h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+
+.marvel-logo {
+    display: inline-block;
+    background-color: #ed1d24;
+    color: #fff !important;
+    font-family: Impact, 'Arial Narrow', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1;
+    padding: 2px 7px 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-fill-color: white !important;
+    transition: transform 0.2s ease;
+}
+
+.marvel-logo:hover {
+    color: white;
+    -webkit-text-fill-color: white !important;
+    transform: scale(1.04);
+}
